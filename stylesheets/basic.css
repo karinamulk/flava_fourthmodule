@@ -1,0 +1,423 @@
+@keyframes row {
+  0% {background-position: 0% top}
+  100% {background-position: 500% top}
+}
+
+.wrapper {
+  position: relative;
+  width: 100%;
+  /* background: black; */
+  /* opacity: 70%; */
+}
+.sootnosheniye {
+  position: relative;
+  padding-bottom: 557.2%;
+  /* background: red; */
+
+}
+.content {
+  position: absolute;
+  width: 97.222%;
+  top: 10.855%; bottom: 0; left: 1.389%; right: 1.389%;
+  padding: 0;
+  /* opacity: 50%; */
+  overflow: hidden;
+  transition: all .3s;
+  background: url('../images/frame.png');
+  background-size: 100% auto ;
+  background-position: 0 top;
+  transition: all 3s ease;
+  /* background: yellow; */
+}
+.logo {
+  position: absolute;
+  left: 2.083%;
+  width: 8.477%;
+  top: auto;
+  bottom: 59.5%;
+  transition: all 2s ease;
+  position: fixed;
+
+}
+.visible {
+  width: 95.834%;
+
+}
+.title {
+  position: absolute;
+  left: 2.083%;
+  font-family: 'Pangram Bold';
+  line-height: 30px;
+  color: #101010;
+  position: fixed;
+  transition: all 2s ease;
+  font-size: 6.946vw;
+  top: 43%;
+  padding-left: 0;
+
+}
+.title2 {
+  font-size: 1.737vw;
+  top: 40.8%;
+}
+.block {
+  top: 10%;
+}
+.button {
+  position: absolute;
+  padding: 1.22vw 3.2%;
+  background: #101010;
+  bottom: 8vw;
+  left: 43.75%;
+  border-radius: 30px;
+  color: #F2F2F2;
+  font-family: 'Pangram Medium';
+  font-size: 1.74vw;
+}
+.bottom {
+  width: 100%;
+  height: 290px;
+}
+.logo2 {
+  width: 2.066%;
+}
+h1 {
+  position: relative;
+  font-family: 'Pangram Medium';
+  color: #F2F2F2;
+  font-size: 19.95vw;
+  line-height: 14vw;
+  text-align: center;
+  display: inline-block;
+  width: auto;
+  margin-top: 10vh;
+
+}
+h3 {
+  position: relative;
+  font-family: 'Pangram Semibold';
+  font-size: 1.535vw;
+  color: #F2F2F2;
+
+  display: inline-block;
+  margin-top: 0.5vh;
+}
+.menubar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menubarlinks {
+  width: 38.57%;
+  display: flex;
+  justify-content: space-between;
+
+}
+.menubarlinks h3:last-child {
+  margin-right: 1.5%;
+}
+p {
+  position: relative;
+  display: inline-block;
+  font-family: 'Pangram Medium';
+  font-size: 3.12vw;
+  line-height: 4.2vw;
+  color: #F2F2F2;
+  padding-left: 3.07%;
+}
+.concept {
+  margin-top: 16vh;
+}
+
+.ecvalaizer {
+  width: 100%;
+  height: 41.32vw;
+  margin-top: 4vw;
+
+}
+.ecvalaizer1, .ecvalaizer2, .ecvalaizer3 {
+  width: 100%;
+  height: 41.32vw;
+  position: absolute;
+}
+
+.ecvalaizer1 {
+  background: url('../images/ecvalizer1.jpg');
+  background-size: 100% auto ;
+  background-position: 0 top;
+  animation: ecvalizer1 6s linear infinite;
+  opacity: 0;
+}
+
+.ecvalaizer2 {
+  background: url('../images/ecvalizer2.jpg');
+  background-size: 100% auto ;
+  background-position: 0 top;
+  animation: ecvalizer2 6s linear infinite;
+  opacity: 0;
+
+}
+
+.ecvalaizer3 {
+  background: url('../images/ecvalizer3.jpg');
+  background-size: 100% auto ;
+  background-position: 0 top;
+  animation: ecvalizer3 6s linear infinite;
+  opacity: 0;
+  /* opacity: 1; */
+  /* background: red; */
+
+
+
+}
+@keyframes ecvalizer1 {
+  0% {opacity: 0}
+  8.3% {opacity: 1}
+  16.6% {opacity: 1}
+  24.9% {opacity: 1}
+  33.3% {opacity: 0}
+  49.9% {opacity: 0}
+  66.47% {opacity: 0}
+  83% {opacity: 0}
+  100% {opacity: 0}
+}
+
+@keyframes ecvalizer2 {
+  0% {opacity: 0}
+  16.6% {opacity: 0}
+  33.3% {opacity: 0}
+  41.6% {opacity: 1}
+  49.9% {opacity: 1}
+  58.2% {opacity: 1}
+  66.47% {opacity: 0}
+  83% {opacity: 0}
+  100% {opacity: 0}
+}
+
+@keyframes ecvalizer3 {
+  0% {opacity: 0}
+  16.6% {opacity: 0}
+  33.3% {opacity: 0}
+  49.9% {opacity: 0}
+  66.47% {opacity: 0}
+  74.77% {opacity: 1}
+  83% {opacity: 1}
+  91.3% {opacity: 1}
+  100% {opacity: 0}
+}
+
+.incpiration {
+  margin-top: 2vw;
+}
+
+h2 {
+  font-family: 'Pangram Semibold';
+  font-size: 9.72vw;
+  color: #F2F2F2;
+}
+
+.facts {
+  margin-top: 14vw;
+  position: relative;
+}
+.facts h2 {
+  text-align: center;
+  margin-bottom: 0.5vw;
+}
+.facts img {
+  width: 5.86vw;
+  position: absolute;
+}
+.e1 {
+  left: 7.5vw;
+  top: 4.1vw;
+}
+.e2 {
+  left: auto;
+  right: 7.5vw;
+  top: 3.4vw;
+}
+.e4 {
+  left: auto;
+  right: 6.6vw;
+  top: 12.9vw;
+}
+
+.e3 {
+  left: 6.6vw;
+  top: 13.5vw;
+}
+
+.e6 {
+  left: auto;
+  right: 13.9vw;
+  top: 24.9vw;
+}
+
+.e5 {
+  left: 13.9vw;
+  top: 23.2vw;
+}
+
+span {
+  font-family: 'Pangram Medium';
+  font-size: 1.74vw;
+  color: #F2F2F2;
+  display: block;
+}
+.ficha {
+  margin-top: 12vw;
+  vertical-align: top !important;
+}
+.line {
+  width: 100%;
+  border: solid 1px #F2F2F2;
+  margin-top: 0.4vw;
+}
+.fichatop {
+  vertical-align: top !important;
+}
+.fichatop p {
+  display: inline-block;
+  margin-top: 0;
+}
+.fichalink {
+  display: inline-block;
+  width: 11.7%;
+  margin-left: 23%;
+  margin-top: 1vw;
+}
+.ficha img {
+  margin-top: 2vw;
+  width: 100%;
+}
+.fichalink2 {
+  margin-left: 5.3%;
+  width: 17.8%;
+}
+.ficha2 {
+  margin-top: 14vw;
+}
+.fichalink3 {
+  width: 15.1%;
+  margin-left: 19.7%;
+}
+.who p {
+  width: 60%;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  padding-left: 0;
+}
+.who {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15vw;
+
+}
+.who img {
+  margin-left: auto;
+  margin-right: auto;
+  width: 18.57%;
+  margin-top: 4vw;
+}
+
+.names {
+  position: relative;
+  margin-top: 11vw;
+}
+
+.names p {
+  position: absolute;
+}
+.names h2 {
+  font-size: 9.37vw;
+  position: absolute;
+  /* top: 300px; */
+}
+.names p:first-child {
+  left: 7.93%;
+  padding-left: 0;
+  top: 2.7vw;
+}
+.names p:last-child {
+  left: auto;
+  right: 6.57%;
+  top: 32.7vw;
+}
+.name1 {
+  left: auto;
+  right: 12.286%;
+  top: 0;
+}
+.name2 {
+  left: 8.43%;
+  top: 10vw;
+}
+.name3 {
+  left: auto;
+  right: 8.214%;
+  top: 10vw;
+}
+.name4 {
+  left: 5.43%;
+  top: 20vw;
+}
+.name5 {
+  top: 20vw;
+  left: auto;
+  right: 5.29%;
+}
+.name6 {
+  left: 11.5%;
+  top: 30vw;
+}
+.bigbutton {
+  height: 41.4vw;
+  border-radius: 300px;
+  border: solid 2px #F2F2F2;
+  width: 94.42%;
+  margin-top: 62vw;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 19.5vw 39.9%;
+  box-sizing: border-box;
+}
+.bigbuttonname {
+  margin: 0 auto;
+  width: 100%;
+}
+.logofutter {
+  width: 11.57%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.logoblock {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10vw;
+}
+.logoblock span {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2vw;
+}
+.futter {
+  margin-top: 10vw;
+  display: flex;
+  justify-content: space-between;
+}
+.futteritem {
+  width: 28.21%;
+  display: flex;
+  flex-direction: column;
+}
+.futteritem span {
+  margin: 0.5vw auto;
+
+}
+.futteritem span:first-child {
+  margin-bottom: 2.5vw;
+  color: #938D98;
+}
