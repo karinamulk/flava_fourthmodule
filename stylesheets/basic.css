@@ -92,6 +92,22 @@
   color: #F2F2F2;
   font-family: 'Pangram Medium';
   font-size: 1.74vw;
+  transition: all .4s ease;
+
+}
+.button:hover {
+  background-color: #F2F2F2;
+  transition: all .2s;
+
+}
+.button:hover a {
+  color: #101010;
+  transition: all .2s ease;
+}
+.button a {
+  text-decoration: none;
+  color: #F2F2F2;
+  transition: all .4s ease;
 }
 .bottom {
   width: 100%;
@@ -117,7 +133,7 @@ h3 {
   font-family: 'Pangram Semibold';
   font-size: 1.535vw;
   color: #F2F2F2;
-
+  transition: all .4s ease;
   display: inline-block;
   margin-top: 0.5vh;
 }
@@ -132,7 +148,14 @@ h3 {
   justify-content: space-between;
 
 }
-.menubarlinks h3:last-child {
+.menubarlinks a {
+  width: auto;
+}
+.menubarlinks a:hover h3 {
+  color: #938D98;
+  transition: all .2s ease;
+}
+.menubarlinks a:last-child {
   margin-right: 1.5%;
 }
 p {
@@ -284,6 +307,8 @@ span {
   font-size: 1.74vw;
   color: #F2F2F2;
   display: block;
+  transition: all .4s ease;
+
 }
 .ficha {
   margin-top: 12vw;
@@ -293,6 +318,8 @@ span {
   width: 100%;
   border: solid 1px #F2F2F2;
   margin-top: 0.4vw;
+  transition: all .4s ease;
+
 }
 .fichatop {
   vertical-align: top !important;
@@ -321,6 +348,16 @@ span {
 .fichalink3 {
   width: 15.1%;
   margin-left: 19.7%;
+}
+.fichalink:hover span {
+  color: #938D98;
+  transition: all .2s ease;
+  cursor: pointer;
+}
+.fichalink:hover .line {
+  border: solid 1px #938D98;
+  transition: all .2s ease;
+
 }
 .who p {
   width: 60%;
@@ -402,6 +439,36 @@ span {
   margin-right: auto;
   padding: 19.5vw 39.9%;
   box-sizing: border-box;
+
+  background-size: 500% auto ;
+  background-position: 0 top;
+  background-attachment: fixed;
+  animation: row 120s linear infinite;
+  background-color: #101010;
+
+
+}
+.bigbutton:hover {
+  background-image: url('../images/background.jpg');
+  border: none;
+  cursor: pointer;
+}
+.bigbutton span {
+  transition: none;
+
+}
+.bigbutton:hover span {
+  color: #101010;
+  transition: none;
+
+}
+.bigbutton .line {
+  transition: none;
+
+}
+.bigbutton:hover .line {
+  border: solid 1px #101010 !important;
+  transition: none;
 }
 .bigbuttonname {
   margin: 0 auto;
@@ -435,9 +502,15 @@ span {
 }
 .futteritem span {
   margin: 0.5vw auto;
+  transition: all .4s ease;
 
 }
 .futteritem span:first-child {
   margin-bottom: 2.5vw;
   color: #938D98;
+}
+.futteritem span:hover {
+  color: #938D98;
+  cursor: pointer;
+  transition: all .2s ease;
 }
