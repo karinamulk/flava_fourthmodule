@@ -1,0 +1,68 @@
+@media only screen and (min-width: 769px) {
+  .logoblack {display: none;}
+  .titleipad {display: none;}
+
+}
+@media only screen and (min-width: 501px) and (max-width: 768px) {
+  .logo {display: none;}
+  .title {display: none;}
+  body::before { background-size: auto 100% !important; }
+
+  .sootnosheniye {padding-bottom: 839%;}
+  .content {background: url('../images/frame2.png'); top: 95.5vw; width: 95.83%; left: 2.083%; right: 2.083%;}
+  .logo2 {width: 8.201%;}
+  .menubarlinks {width: 74.02%}
+
+  h3 {font-size: 2.35vw; margin-top: 0.7vh;}
+  .menubarlinks h3:last-child {margin-right: 4.076%;}
+  h1 {font-size: 24.6vw; line-height: 17vw; margin-top: 12vw;}
+  .concept {margin-top: 15vw;}
+  p {font-size: 4.45vw; line-height: 6.25vw; padding-left: 4.48%;}
+  .ecvalaizer {height: 93vw; margin-top: 16vw;}
+  .ecvalaizer1, .ecvalaizer2 {display: none;}
+  .ecvalaizer3 {background: url('../images/ecvalizeripad.png'); animation: none; opacity: 1; height: 93vw;}
+  .incpiration {margin-top: 9vw;}
+  .ooo {font-size: 80px;}
+  h2 {font-size: 10.4vw;}
+  .facts h2 {margin-bottom: 3vw;}
+  .facts {margin-top: 16vw;}
+  .e2 {right: 7.5vw; top: 3.8vw;}
+  .e1 {left: 7.5vw; top: 4.5vw;}
+  .e4 {right: 6.1vw; top: 16.4vw;}
+  .e3 {left: 6.1vw; top: 17vw;}
+  .e6 {right: 14.1vw; top: 31vw;}
+  .e5 {left: 14vw; top: 29.3vw;}
+  .fichatop p {font-size: 2.6vw;}
+  span {font-size: 2.6vw;}
+  .fichalink {width: 17.7%; margin-top: 1.9vw;}
+  .ficha img {margin-top: 4vw;}
+  .ficha {margin-top: 17vw;}
+  .ficha2 {margin-top: 16vw;}
+  .fichalink2 {width: 27%; margin-left: 3.6%;}
+  .fichalink3 {width: 22.9%; margin-left: 17%;}
+  .who p {width: 80%;}
+  .who img {width: 28%; margin-top: 6vw;}
+  .who {margin-top: 19vw;}
+  .names {margin-top: 13vw;}
+  .names p {font-size: 2.6vw;}
+  .ooo {font-size: 70px !important;}
+  .names h2 {font-size: 9.1vw;}
+  .name1 {right: 18.13%;}
+  .names p:first-child {left: 10.29%; top: 1.5vw;}
+  .name3 {right: 9.688%; top: 11vw;}
+  .name2 {left: 9.92%; top: 11vw;}
+  .name4 {left: 6.79%; top: 22vw;}
+  .name5 {right: 6.93%; top: 22vw;}
+  .name6 {left: 9.17%; top: 33vw}
+  .names p:last-child {right: 16%; top: 34.8vw;}
+  .bigbutton {margin-top: 73vw; width: 91.3%; height: 70.84vw; padding: 33.5vw 34.45%;}
+  .bigbuttonname {width: 100%; margin: 0 auto; }
+  .logofutter {width: 21.74%;}
+  .logoblock span {margin-top: 3vw;}
+  .logoblock {margin-top: 18vw;}
+  .futter {margin-top: 18vw;}
+  .futteritem span:first-child {margin-bottom: 3vw;}
+  .futteritem span {margin: 1.5vw auto;}
+  .futteritem {width: 34.78%;}
+  .button {font-size: 2.6vw; padding: 2.3vw 5.2%; left: 40.18%; bottom: 15vw;}
+}
