@@ -14,7 +14,8 @@
   .menubarlinks {width: 74.02%}
 
   h3 {font-size: 2.35vw; margin-top: 0.7vh;}
-  .menubarlinks h3:last-child {margin-right: 4.076%;}
+
+  .menubarlinks a:last-child {margin-right: 4.076%;}
   h1 {font-size: 24.6vw; line-height: 17vw; margin-top: 12vw;}
   .concept {margin-top: 15vw;}
   p {font-size: 4.45vw; line-height: 6.25vw; padding-left: 4.48%;}
