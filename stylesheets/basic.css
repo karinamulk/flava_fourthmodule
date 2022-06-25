@@ -18,7 +18,7 @@
 .content {
   position: absolute;
   width: 97.222%;
-  top: 10.855%; bottom: 0; left: 1.389%; right: 1.389%;
+  top: 9.8%; bottom: 0; left: 1.389%; right: 1.389%;
   padding: 0;
   /* opacity: 50%; */
   overflow: hidden;
@@ -37,7 +37,14 @@
   bottom: 59.5%;
   transition: all 2s ease;
   position: fixed;
-
+}
+.logoblack {position: absolute;
+  left: 2.0835%;
+  width: 95.833%;
+  top: 2.5vw;
+  bottom: auto;
+  transition: all 2s ease;
+  position: fixed;
 }
 .visible {
   width: 95.834%;
@@ -60,6 +67,18 @@
   font-size: 1.737vw;
   top: 40.8%;
 }
+.titleipad {
+  position: absolute;
+  left: 2.083%;
+  font-family: 'Pangram Bold';
+  line-height: 30px;
+  color: #101010;
+  position: fixed;
+  font-size: 4.43vw;
+  top: 84vw;
+  padding-left: 0;
+
+}
 .block {
   top: 10%;
 }
@@ -67,7 +86,7 @@
   position: absolute;
   padding: 1.22vw 3.2%;
   background: #101010;
-  bottom: 8vw;
+  bottom: 9vw;
   left: 43.75%;
   border-radius: 30px;
   color: #F2F2F2;
@@ -127,6 +146,7 @@ p {
 }
 .concept {
   margin-top: 16vh;
+  width: 90%;
 }
 
 .ecvalaizer {
