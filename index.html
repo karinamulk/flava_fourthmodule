@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Flava</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script src="javascript/all.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="stylesheets/style.css">
+
+    <style media="screen">
+      body{
+        width: 100%;
+        margin: 0;
+        /* background: #111112; */
+        display: block;
+        position: relative;
+        /* height: 100%; */
+        /* overflow: hidden; */
+      }
+      body::before{
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0;
+        right: 0;
+        background: url('images/background.jpg');
+        width: 100%;
+        height: 100%;
+        background-size: 500% auto ;
+        background-position: 0 top;
+        background-attachment: fixed;
+        display: block;
+
+        /* opacity: 100; */
+        animation: row 150s linear infinite;
+      }
+      html{
+        position: relative;
+        height: 100%;
+        width: 100%;
+
+      }
+    </style>
+    <script>
+    	$( document ).ready(function(){
+        var className = "visible";
+        var className2 = "title2";
+        var scrollTrigger = 1;
+
+        var className1 = "block";
+        var scrollTrigger1 = 500;
+
+        window.onscroll = function() {
+          if (window.scrollY >= scrollTrigger || window.pageYOffset >= scrollTrigger) {
+            document.getElementsByClassName("logo")[0].classList.add(className);
+          } else {
+            document.getElementsByClassName("logo")[0].classList.remove(className);
+          }
+
+          if (window.scrollY >= scrollTrigger || window.pageYOffset >= scrollTrigger) {
+            document.getElementsByClassName("title")[0].classList.add(className2);
+          } else {
+            document.getElementsByClassName("title")[0].classList.remove(className2);
+          }
+
+          if (window.scrollY >= scrollTrigger1 || window.pageYOffset >= scrollTrigger1) {
+            document.getElementsByClassName("content")[0].classList.add(className1);
+          } else {
+            document.getElementsByClassName("content")[0].classList.remove(className1);
+          }
+
+    	}
+
+
+    });
+    </script>
+  </head>
+  <body>
+    <img src="images/logo.svg" alt="" class="logo">
+    <p class="title">журнал о моде в музыке</p>
+    <div class="wrapper">
+      <div class="sootnosheniye">
+        <div class="content">
+          <div class="menubar">
+            <img src="images/logo2.svg" alt="" class="logo2">
+            <div class="menubarlinks">
+              <h3>о журнале</h3>
+              <h3>для кого</h3>
+              <h3>подписка</h3>
+            </div>
+
+          </div>
+
+
+          <h1>Быть другим</h1>
+          <p class="concept">Flava&nbsp;&mdash; журнал о&nbsp;моде в&nbsp;музыкальной индустрии. Мы&nbsp;рассказываем о&nbsp;стиле одежды музыкантов, показываем&nbsp;и&nbsp;разбираем их&nbsp;аутфиты.</p>
+          <div class="ecvalaizer">
+            <div class="ecvalaizer1"></div>
+            <div class="ecvalaizer2"></div>
+            <div class="ecvalaizer3"></div>
+          </div>
+
+          <p class="incpiration">Вдохновляйся и&nbsp;подбирай свой уникальный образ</p>
+          <div class="facts">
+            <img src="images/1.png" alt="" class="e1">
+            <img src="images/2.png" alt="" class="e2">
+            <img src="images/3.png" alt="" class="e3">
+            <img src="images/4.png" alt="" class="e4">
+            <img src="images/5.png" alt="" class="e5">
+            <img src="images/6.png" alt="" class="e6">
+            <h2>300 артистов</h2>
+            <h2>1500 образов</h2>
+            <h2>800 статей</h2>
+          </div>
+
+          <div class="ficha">
+            <div class="fichatop">
+              <p>Узнай о стиле известных музыкантов</p>
+              <div class="fichalink">
+                <span>читать статьи</span>
+                <div class="line"></div>
+              </div>
+            </div>
+            <img src="images/posts.png" alt="">
+          </div>
+
+          <div class="ficha ficha2">
+            <div class="fichatop">
+              <p>Будь в тренде вместе любимымис артистами</p>
+              <div class="fichalink fichalink2">
+                <span>перейти в подборки</span>
+                <div class="line"></div>
+              </div>
+            </div>
+            <img src="images/collect.png" alt="">
+          </div>
+
+          <div class="ficha ficha2">
+            <div class="fichatop">
+              <p>Вдохновляйся и находи крутые вещи</p>
+              <div class="fichalink fichalink3">
+                <span>смотреть образы</span>
+                <div class="line"></div>
+              </div>
+            </div>
+            <img src="images/looks.png" alt="">
+          </div>
+
+          <div class="who">
+            <p>Flava создана для тех, кто заинтересован в моде и музыке</p>
+            <img src="images/user.png" alt="">
+          </div>
+
+          <div class="names">
+            <p>присоединяйся, если ты</p>
+            <h2 class="name1">модник</h2>
+            <h2 class="name2">ценитель</h2>
+            <h2 class="name3">блогер</h2>
+            <h2 class="name4">стилист</h2>
+            <h2 class="name5">дизайнер</h2>
+            <h2 class="name6">критик</h2>
+            <p>или просто стало интересно</p>
+          </div>
+
+          <div class="bigbutton">
+            <div class="fichalink bigbuttonname">
+              <span>присоединиться</span>
+              <div class="line"></div>
+            </div>
+          </div>
+
+          <div class="logoblock">
+            <img src="images/logo2.svg" alt="" class="logofutter">
+            <span>Следуй за музыкой и ищи себя с Flava</span>
+          </div>
+
+          <div class="futter">
+            <div class="futteritem">
+              <span>Следите в соцсетях</span>
+              <span>Вконтакте</span>
+              <span>Telegram</span>
+              <span>YouTube</span>
+            </div>
+            <div class="futteritem">
+              <span>Читайте на Flava</span>
+              <span>Образы</span>
+              <span>Статьи</span>
+              <span>Подборки</span>
+            </div>
+            <div class="futteritem">
+              <span>Полезные ссылки</span>
+              <span>О проекте</span>
+              <span>Пользователям</span>
+              <span>Артистам</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <div class="bottom"></div>
+    <div class="button">наверх</div>
+  </body>
+</html>
