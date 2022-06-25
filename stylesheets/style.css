@@ -1,6 +1,6 @@
 @import 'reset.css';
 @import 'basic.css';
-/* @import 'responsive.css'; */
+@import 'responsive.css';
 
 @font-face {
 font-family: 'Pangram Medium';
